@@ -1,0 +1,9 @@
+      integer nxg,nyg,nzg
+
+      parameter(nxg=201,nyg=201,nzg=201)
+
+      real*8 xface(nxg+1),yface(nyg+1),zface(nzg+1)
+      real*8 rhokap(nxg,nyg,nzg)
+      integer znumber(nxg,nyg,nzg)
+      real*8 vox(5,5,5)
+      integer counterv(5,5,5)
